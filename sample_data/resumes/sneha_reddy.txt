@@ -1,0 +1,16 @@
+Sneha Reddy
+sneha.reddy@example.com | +91 90000 11122 | Hyderabad
+
+Career Objective
+B.Tech IT fresher who enjoys Android app development.
+
+Skills
+Java, Kotlin, Android, Firebase, C++, HTML
+
+Projects
+- Attendance tracker Android app with Firebase.
+- Library management system in Java.
+
+Achievements
+- Won second prize in college hackathon.
+Soft skills: teamwork, leadership.

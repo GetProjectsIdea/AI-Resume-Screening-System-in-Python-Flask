@@ -1,0 +1,198 @@
+{
+  "Programming Languages": {
+    "Python": [
+      "python3"
+    ],
+    "Java": [],
+    "JavaScript": [
+      "js",
+      "es6"
+    ],
+    "TypeScript": [],
+    "C++": [
+      "cpp"
+    ],
+    "C#": [
+      "csharp"
+    ],
+    "C": [
+      "c language",
+      "c programming"
+    ],
+    "Go": [
+      "golang",
+      "go programming",
+      "go language"
+    ],
+    "Kotlin": [],
+    "PHP": [],
+    "R": [
+      "r programming",
+      "r language"
+    ],
+    "SQL": [
+      "structured query language"
+    ]
+  },
+  "Web Frameworks": {
+    "Flask": [],
+    "Django": [],
+    "FastAPI": [
+      "fast api"
+    ],
+    "React": [
+      "react.js",
+      "reactjs"
+    ],
+    "Next.js": [
+      "nextjs",
+      "next js"
+    ],
+    "Angular": [],
+    "Vue.js": [
+      "vue",
+      "vuejs"
+    ],
+    "Node.js": [
+      "nodejs",
+      "node js"
+    ],
+    "Express.js": [
+      "expressjs",
+      "express js"
+    ],
+    "Spring Boot": [
+      "springboot"
+    ],
+    "HTML": [
+      "html5"
+    ],
+    "CSS": [
+      "css3"
+    ],
+    "Bootstrap": [],
+    "Tailwind CSS": [
+      "tailwind"
+    ],
+    "REST API": [
+      "rest apis",
+      "restful",
+      "restful apis"
+    ]
+  },
+  "Data & AI": {
+    "Machine Learning": [
+      "ml"
+    ],
+    "Deep Learning": [],
+    "Natural Language Processing": [
+      "nlp"
+    ],
+    "Computer Vision": [
+      "opencv"
+    ],
+    "scikit-learn": [
+      "sklearn",
+      "scikit learn"
+    ],
+    "TensorFlow": [
+      "keras"
+    ],
+    "PyTorch": [
+      "torch"
+    ],
+    "Pandas": [],
+    "NumPy": [
+      "numpy"
+    ],
+    "Matplotlib": [
+      "seaborn"
+    ],
+    "Power BI": [
+      "powerbi"
+    ],
+    "Tableau": [],
+    "Excel": [
+      "ms excel",
+      "microsoft excel"
+    ],
+    "Statistics": [
+      "statistical analysis"
+    ],
+    "Generative AI": [
+      "genai",
+      "llm",
+      "llms",
+      "large language models"
+    ],
+    "LangChain": []
+  },
+  "Databases": {
+    "MySQL": [],
+    "PostgreSQL": [
+      "postgres"
+    ],
+    "MongoDB": [
+      "mongo"
+    ],
+    "SQLite": [],
+    "Redis": [],
+    "Firebase": [
+      "firestore"
+    ]
+  },
+  "Cloud & DevOps": {
+    "AWS": [
+      "amazon web services",
+      "ec2",
+      "s3"
+    ],
+    "Azure": [
+      "microsoft azure"
+    ],
+    "Google Cloud": [
+      "gcp"
+    ],
+    "Docker": [],
+    "Kubernetes": [
+      "k8s"
+    ],
+    "Git": [
+      "github",
+      "gitlab"
+    ],
+    "Linux": [
+      "ubuntu"
+    ],
+    "CI/CD": [
+      "github actions",
+      "jenkins"
+    ]
+  },
+  "Mobile": {
+    "Android": [],
+    "Flutter": [
+      "dart"
+    ],
+    "React Native": [],
+    "Swift": [
+      "swiftui"
+    ]
+  },
+  "Soft Skills": {
+    "Communication": [
+      "communication skills"
+    ],
+    "Teamwork": [
+      "team player",
+      "collaboration"
+    ],
+    "Problem Solving": [
+      "problem-solving"
+    ],
+    "Leadership": [],
+    "Agile": [
+      "scrum"
+    ]
+  }
+}

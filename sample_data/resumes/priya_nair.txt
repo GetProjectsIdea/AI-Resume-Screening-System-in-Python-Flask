@@ -1,0 +1,19 @@
+Priya Nair
+priya.nair@example.com | +91 91234 56780 | Kochi
+
+Profile
+MCA graduate with 2 years of experience as a data analyst. Strong in Python,
+Pandas, NumPy, SQL and machine learning.
+
+Technical Skills
+Python, Pandas, NumPy, Matplotlib, scikit-learn, SQL, MySQL, Power BI, Excel, Git
+
+Experience
+Data Analyst, InsightWorks (2 years)
+- Cleaned and analysed sales data with Pandas and SQL.
+- Built a churn prediction model with scikit-learn.
+
+Education
+MCA, Cochin University, 2024
+
+Strengths: problem solving, communication.

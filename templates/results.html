@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Results · {{ s.job_title }}{% endblock %}
+{% block content %}
+<div class="results-head">
+  <div>
+    <h1>{{ s.job_title }}</h1>
+    <p class="muted">{{ s.results|length }} candidate(s) · screened {{ s.created_at.replace('T', ' ') }}</p>
+  </div>
+  <a class="btn" href="{{ url_for('export_csv', screening_id=s.id) }}">Download CSV</a>
+</div>
+
+{% for r in s.results %}
+<article class="card candidate">
+  <div class="rank">#{{ loop.index }}</div>
+  <div class="info">
+    <h2>{{ r.name }} <span class="badge {{ r.verdict|lower|replace(' ', '-') }}">{{ r.verdict }}</span></h2>
+    <p class="muted small">{{ r.filename }}{% if r.email %} · {{ r.email }}{% endif %}{% if r.phone %} · {{ r.phone }}{% endif %}{% if r.years_experience %} · {{ r.years_experience|round(1) }} yrs{% endif %}</p>
+    <div class="bars">
+      <div><span>Skills</span><progress max="100" value="{{ r.skill_score }}"></progress><b>{{ r.skill_score }}%</b></div>
+      <div><span>Similarity</span><progress max="100" value="{{ r.similarity_score }}"></progress><b>{{ r.similarity_score }}%</b></div>
+      <div><span>Experience</span><progress max="100" value="{{ r.experience_score }}"></progress><b>{{ r.experience_score }}%</b></div>
+    </div>
+    <p><b>Matched:</b> {% for k in r.matched_skills %}<span class="chip ok">{{ k }}</span>{% else %}<span class="muted">none</span>{% endfor %}</p>
+    <p><b>Missing:</b> {% for k in r.missing_skills %}<span class="chip miss">{{ k }}</span>{% else %}<span class="muted">none</span>{% endfor %}</p>
+    {% if r.extra_skills %}<p><b>Bonus skills:</b> {% for k in r.extra_skills %}<span class="chip">{{ k }}</span>{% endfor %}</p>{% endif %}
+  </div>
+  <div class="score"><span>{{ r.score }}</span><small>/ 100</small></div>
+</article>
+{% endfor %}
+{% endblock %}

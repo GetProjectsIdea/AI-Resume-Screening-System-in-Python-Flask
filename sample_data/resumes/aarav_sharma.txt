@@ -1,0 +1,21 @@
+Aarav Sharma
+aarav.sharma@example.com | +91 98765 43210 | Pune
+
+Summary
+Final-year B.Tech CSE student with 1.5 years of internship experience building
+Python web apps and machine learning models.
+
+Skills
+Python, Flask, Django, REST API, MySQL, PostgreSQL, scikit-learn, Pandas, NumPy,
+NLP, Git, GitHub, HTML, CSS, JavaScript, Docker
+
+Experience
+Python Developer Intern, DataNest Labs (Jan 2025 - Jun 2026)
+- Built a Flask REST API for an invoice classifier using scikit-learn (92% accuracy).
+- Stored results in PostgreSQL and containerised the service with Docker.
+
+Projects
+- Fake News Detection using NLP and TF-IDF.
+- Student Result Portal in Django with MySQL.
+
+Soft skills: communication, teamwork, problem solving.

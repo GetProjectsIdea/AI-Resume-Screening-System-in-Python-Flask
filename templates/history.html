@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}History{% endblock %}
+{% block content %}
+<h1>Screening History</h1>
+{% if screenings %}
+<table class="table">
+  <thead><tr><th>#</th><th>Job title</th><th>Candidates</th><th>Date</th><th></th></tr></thead>
+  <tbody>
+  {% for s in screenings %}
+    <tr>
+      <td>{{ s.id }}</td>
+      <td><a href="{{ url_for('results', screening_id=s.id) }}">{{ s.job_title }}</a></td>
+      <td>{{ s.total }}</td>
+      <td>{{ s.created_at.replace('T', ' ') }}</td>
+      <td><form method="post" action="{{ url_for('delete', screening_id=s.id) }}"><button class="link-btn" type="submit">Delete</button></form></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p class="muted">No screenings yet. <a href="{{ url_for('index') }}">Run your first one</a>.</p>
+{% endif %}
+{% endblock %}

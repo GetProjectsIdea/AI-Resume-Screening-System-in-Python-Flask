@@ -1,0 +1,19 @@
+Job Title: Python Developer (Fresher / Junior)
+Company: Sample Tech Pvt. Ltd., Bengaluru
+
+We are looking for a Python Developer with 1+ years of experience (internships count)
+to build web applications and machine learning features.
+
+Required skills:
+- Strong Python programming
+- Flask or Django for building REST API services
+- SQL and MySQL or PostgreSQL databases
+- Machine Learning basics with scikit-learn, Pandas and NumPy
+- Git and GitHub for version control
+- HTML, CSS and JavaScript for simple front-end pages
+
+Good to have:
+- Docker and AWS deployment
+- Natural Language Processing (NLP)
+
+Soft skills: good communication, teamwork and problem solving.

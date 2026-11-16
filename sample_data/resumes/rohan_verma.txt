@@ -1,0 +1,15 @@
+Rohan Verma
+rohan.verma@example.com | +91 99887 76655 | Delhi
+
+Objective
+Front-end developer looking for a React role.
+
+Skills
+JavaScript, TypeScript, React, Next.js, HTML, CSS, Tailwind CSS, Node.js, MongoDB, Git
+
+Experience
+Front-end Intern, PixelCraft (6 months)
+- Built responsive React dashboards with Tailwind CSS.
+
+Projects
+- E-commerce store with Next.js and MongoDB.
